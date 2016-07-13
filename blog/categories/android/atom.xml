@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Android | My Octopress Blog]]></title>
+  <link href="http://demo-lin.github.io/blog/categories/android/atom.xml" rel="self"/>
+  <link href="http://demo-lin.github.io/"/>
+  <updated>2016-07-13T08:27:11+08:00</updated>
+  <id>http://demo-lin.github.io/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[First]]></title>
+    <link href="http://demo-lin.github.io/blog/2016/07/13/first/"/>
+    <updated>2016-07-13T00:07:43+08:00</updated>
+    <id>http://demo-lin.github.io/blog/2016/07/13/first</id>
+    <content type="html"><![CDATA[<h1>数组</h1>
+
+<h2>使用数组</h2>
+
+<p>使用数组最常用的方法是<strong>访问数组元素</strong>，包括<strong>对数组元素进行赋值和取出数组元素的值</strong></p>
+
+<ul>
+<li><strong>访问数组元素</strong>：在数组引用变量后跟一个方括号（[]），括号内是数组元素的索引值</li>
+<li><strong>length属性</strong>：通过该属性访问数组的长度</li>
+</ul>
+
+
+<h3>foreach循环</h3>
+
+<p>这种遍历数组和集合更加简洁，无须获得数组和集合长度，无须根基索引来访问数组元素和集合元素</p>
+
+<h2>深入数组</h2>
+
+<p>数组是引用数据类型，数组引用变量只是一个<strong>引用</strong>，数组元素和数组变量在<strong>内存</strong>中是<strong>分开存放的</strong></p>
+
+<h3>内存中的数组</h3>
+
+<ul>
+<li>只有数组引用变量指向有效内存后，才可通过该数组变量访问数组元素</li>
+<li>实际数组对象被存储在堆（heap）内存中，数组引用变量存储在栈（stack）中</li>
+<li>若堆内存中数组不再有任何引用变量指向自己，则这个数组将成为垃圾，被系统的垃圾回收机制回收</li>
+</ul>
+
+
+<h3>基本类型数组的初始化</h3>
+
+<blockquote><p>初始化数组时，先为数组分配内存空间，然后直接将数组元素的值存入对应数组元素中</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>
